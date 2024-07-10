@@ -162,7 +162,7 @@ export async function getNodeByURI(uri) {
 }
 
 export async function getAllUris() {
-  // URIs estáticas
+  // URIs estáticas con la extensión .html
   const uris = [
     { params: { uri: "PotreeVisor/balzay.html" } },
     { params: { uri: "PotreeVisor/uda.html" } },
